@@ -1,0 +1,49 @@
+* {
+    font-family: 'Roboto';
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f2a340;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#usuario-create-container button{
+    background-color: #f2a340;
+    border: 2px solid #c28008;
+}
+
+#usuario-create-container button:hover {
+    background-color: #c28008;
+    border-color: #c28008;
+}
+
+#usuario-create-container div{
+    padding: 10px
+}
+
+#usuario-create-container label {
+    font-weight: bold;
+}
+
+#usuario-create-container input {
+    font-size: 12px;
+}
+
